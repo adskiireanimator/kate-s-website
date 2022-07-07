@@ -23,6 +23,6 @@ app.get("/", (req, res) => {
   res.sendFile("index.html");
 });
 
-http.listen(port, "127.0.0.1", () => {
+http.listen(port, "127.0.10.12", () => {
   console.log("server is working like niger");
 });
